@@ -1,6 +1,32 @@
-h1 {
+body {
   font-family: arial, sans-serif;
   font-weight: lighter;
   color: green;
-  font-size: 15px;
+  padding: 20px;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0;
+}
+
+
+th {
+  text-align: left;
+  padding: 10px 0px 5px 0;
+}
+
+td {
+  border-top: 1px solid green;
+  padding: 10px 50px 10px 0;
+}
+
+td.pcolumn {
+  min-width: 15%;
+  width: 15%;
+  max-width: 30%;
 }
