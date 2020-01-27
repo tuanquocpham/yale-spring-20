@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>...</title>
+  </head>
+
+  <body>
+      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 100%; max-height: 100vh;">
+        <input type="password" placeholder="Password"id="myInput">
+        <input type="checkbox" onclick="myFunction()">
+      </div>
+
+    <script>
+      function myFunction() {
+      var x = document.getElementById("myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+      }
+    </script>
+  </body>
+</html>
