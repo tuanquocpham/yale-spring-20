@@ -14,15 +14,27 @@ a:hover {
   opacity: 0;
 }
 
+::selection {
+  background-color: lightgreen;
+}
+
+span {
+  background-color: green;
+}
+
+span:hover {
+  background-color: white;
+}
 
 th {
   text-align: left;
-  padding: 10px 0px 5px 0;
+  padding: 10px 50px 10px 0;
 }
 
 td {
   border-top: 1px solid green;
-  padding: 10px 50px 10px 0;
+  padding: 10px 0px;
+  vertical-align: top;
 }
 
 td.pcolumn {
