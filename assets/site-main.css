@@ -1,0 +1,18 @@
+body {
+  margin: 30px;
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  /* -webkit-text-stroke: .5px red; */
+
+}
+
+select {
+  width: 100%;
+  font-size: 2em;
+}
+
+.answer {
+  padding-top: 30px;
+  font-size: 2em;
+}
